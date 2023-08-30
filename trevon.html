@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Exam 2</title>
+
+    <style>
+        #maindiv 
+        {
+            /*background-color: lightblue;*/
+            width: 1000px;
+        }
+        #headerdiv 
+        {
+            /*background-color:lightgreen;*/
+            display: flex;
+            flex-direction: row;
+            margin-left: 150px;
+            margin-right:150px;
+            justify-content:center;
+            align-items: center;
+            
+            
+            
+        }
+        #body1div {
+            /*background-color: lightcoral;*/
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            align-items: center;
+            
+        }
+        #footerdiv {
+            /*background-color: lightgoldenrodyellow;*/
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            align-items: center;
+            width: 1000px;
+            height: 50px;
+            background-color: aliceblue;
+            color: darkgrey;
+            border-radius: 5px;
+        }
+        #imgdiv {
+            width: 480px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #contentdiv {
+            width: 480px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div id="maindiv">
+
+        <div id="headerdiv">
+            <div style="font-size:30pt; color:dodgerblue; text-transform:uppercase; font-weight:bold;" id="titlediv">
+                I LOVE PROGRAMMING!
+            </div>
+
+            <div id="logodiv">
+                <img style="height:100px;" src="img/languages.svg"/>
+
+            </div>
+        </div>
+
+        <div id="body1div">
+            <div id="contentdiv">
+                <div style="border:2px solid darkgray; border-radius:10px;">
+                    <span style=" font-size:20px;background-color:lightskyblue; border-radius:5px; font-weight: bold;">What I already learned:</span>
+                    <ul>
+                        <li>C#</li>
+                        <li>C# Entity Framework</li>
+                        <li>Database Sqlite</li>
+                        <li>HTML & CSS</li>
+                    </ul>
+
+                </div>
+                <br />
+                <div style="border:2px solid darkgray; border-radius:10px;">
+                    <span style="font-weight:bold;">What I am going to learn next:</span>
+                    <ol>
+                        <li>Java Script</li>
+                        <li>BootStrap</li>
+                        <li>ASP.NET MVC</li>
+                        <li>Web REST API</li>
+                    </ol>
+                </div>
+
+            </div>
+            <div style="border:2px solid darkgray; border-radius:10px;" id="imgdiv">
+                <span style="color:dodgerblue; font-size:20pt; font-weight:bold;" >I love MIS3033</span> <br />
+                <img style="width: 400px; justify-content:center;" src="img/mis3033.svg"/>
+            </div>
+        </div>
+
+        <div id="footerdiv">
+            <span> Designed and Developed by Trevon Holt for MIS 3033 Exam 2</span>
+        </div>
+    </div>
+
+
+</body>
+</html>
